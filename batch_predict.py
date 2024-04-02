@@ -53,3 +53,10 @@ def predict_tabular_classification_sample(
 
 
 # [END aiplatform_predict_tabular_classification_sample]
+
+predict_tabular_classification_sample(
+    project="505940591767",
+    endpoint_id="5645690942443749376",
+    location="us-central1",
+    instances=[{ "feature_column_a": "value", "feature_column_b": "value" ...}, {...}]
+)
